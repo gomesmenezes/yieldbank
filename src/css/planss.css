@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-bottom: 22px;
+}
+
+nav img {
+    width: 75px;
+    height: 75px;
+}
+
+.nav-item a {
+    font-family: var(--bs-body-font-family);
+    color: black;
+}
+
+.navbar-brand {
+    margin-right: 0px;
+}
+
+
+
+footer {
+    margin-top: 20px;
+}
+
+/* Card for mobile s */
+@media (max-width: 374px) {
+    main {
+        margin: 12px;
+    }
+
+    
+}
+
+/* Card for mobile m */
+@media (min-width: 375px) {
+    main {
+        margin: 22px;
+    }
+} 
+
+/* Card for mobile l */
+ @media (min-width: 420px ) {
+    
+}
+
+@media (max-width: 334px) {
+    .d-flex {
+        display: none !important;
+    }
+} 
+
+@media (max-width: 680px) {
+    ul {
+        display: none !important;
+    }
+}
+

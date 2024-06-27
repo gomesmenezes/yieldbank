@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    margin-bottom: 22px;
+}
+
+nav img {
+    width: 75px;
+    height: 75px;
+}
+
+.nav-item a {
+    font-family: var(--bs-body-font-family);
+    color: black;
+}
+
+.navbar-brand {
+    margin-right: 0px;
+}
+
+
+#first-h1 {
+    font-weight: bold;
+
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+    text-align: center;
+}
+
+#first-h2 {
+    font-weight: bold;
+
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+    text-align: center;
+}
+
+#two-h1 {
+    font-weight: bold;
+
+
+    text-align: center;
+}
+
+#first-h3 {
+    text-align: center;
+}
+
+.divizinha-test {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.imagesss {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    width: 365px;
+    height: 455px;
+}
+
+
+.card .card-text {
+    font-size: 14px;    
+}
+
+
+.d-flex {
+    padding-left: 30px;
+}
+
+#second-text {
+    margin-top: 20px;
+}
+
+#three-text-one {
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+/* Card for mobile s */
+@media (max-width: 374px) {
+    .card {
+        margin-left: 5px;
+    }
+
+
+    #first-h1 {
+        padding: 2px;
+    }
+
+    .imagesss {
+        width: 100%;
+        
+    }
+
+    #imagem-principal {
+        height: 100%;
+        width: 100%;
+    }
+
+    #two-h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+
+        text-align: center;
+        width: 280px;
+
+        font-size: 22px;
+    }
+
+    #first-h3 {
+        margin: 0 auto;
+        width: 280px;
+        font-size: 16px;
+    }
+}
+
+/* Card for mobile m */
+@media (min-width: 375px) {
+    .card {
+        margin-left: 35px;
+    }
+
+    #imagem-principal {
+        height: 100%;
+        width: 100%;
+    }
+
+    #two-h1 {
+        margin: 0 auto;
+        padding: 12px;
+        margin-bottom: 2px;
+
+        font-size: 25px;
+    }
+
+    #first-h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0 auto;
+        padding: 12px;
+        margin-bottom: 8px;
+
+        font-size: 23px;
+    }
+} 
+
+/* Card for mobile l */
+ @media (min-width: 420px ) {
+    .card {
+        margin-left: 50px;
+    }
+
+    
+
+    #first-h3 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 800px) {
+    #imagem-principal {
+        height: 400px;
+    }
+}
+
+@media (max-width: 334px) {
+    .d-flex {
+        display: none !important;
+    }
+} 
+
+@media (max-width: 680px) {
+    ul {
+        display: none !important;
+    }
+}
+
